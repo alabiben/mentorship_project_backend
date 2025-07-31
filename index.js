@@ -13,7 +13,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cookieParser());
-const allowedOrigins = ["https://mentor-frontend-eta.vercel.app", "http://localhost:5173/"]
+const allowedOrigins = ["https://frontend-new-mpjc.vercel.app", "http://localhost:5175/Login"]
  app.use(cors({
     origin: allowedOrigins,
     credentials: true,
